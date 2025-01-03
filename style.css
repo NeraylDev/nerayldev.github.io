@@ -5,7 +5,11 @@
 * {font-family: 'Afacad'; color: #DBAC62;}
 
 
-body {margin: 0 0; background: #353539 url(images/main-background.png) fixed no-repeat;}
+body {
+    margin: 0 0;
+    background: #353539 url(images/main-background.png) fixed no-repeat;
+    background-size: cover;
+}
 
 
 h1 {    
@@ -36,6 +40,9 @@ img {border: 5px solid #DBAC62; border-width: thick;}
     width: 100%;
     padding: 24px 0;
     margin-bottom: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
     align-content: space-between;
